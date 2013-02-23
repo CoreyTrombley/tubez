@@ -1,4 +1,4 @@
 == Welcome to Rails
 
 This is a simple youtube video scraper.
-to see this in action please go to link:here.
+to see this in action please go to link:here(www.youtube.com).
