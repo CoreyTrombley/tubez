@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(:version => 20130223144458) do
 
   create_table "videos", :force => true do |t|
-    t.string   "Title"
+    t.string   "title"
     t.string   "url"
     t.integer  "views"
     t.datetime "created_at", :null => false

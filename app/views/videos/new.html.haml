@@ -1,1 +1,12 @@
-%h1 New
+/ %ol
+/   - (0..1000).map{|i| i**2}.select{|i| i.even?}.each do |evens|
+/     %li= evens
+/     
+
+.row
+  .four.columns
+    = form_tag videos_new_path do
+      = label_tag 'video'
+      = text_field_tag "video", nil, :autofocus => true
+      = submit_tag 'Search Videos', :class => 'button radius'
+  .eight.columns
